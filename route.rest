@@ -1,0 +1,32 @@
+GET http://localhost:5000/students
+
+###
+
+POST http://localhost:5000/students
+Content-Type: application/json
+
+{
+    "name": "layla",
+    "age": 17
+}
+
+###
+GET http://localhost:5000/students/6864eb4df704e2a78e2b52d6
+
+###
+
+DELETE http://localhost:5000/students/6864eb4df704e2a78e2b52d6
+
+###
+PATCH http://localhost:5000/students/6864324f3b49ee48160a81d6
+Content-Type: application/json
+
+{
+    "name": "kagen"
+}
+
+###
+DELETE http://localhost:5000/students/name/Kylee
+
+
+
